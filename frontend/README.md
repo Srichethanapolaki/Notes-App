@@ -1,16 +1,153 @@
-# React + Vite
+# 📝 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack Notes Management application built using **React.js**, **Node.js**, **Express.js**, and **Axios**. The application allows users to create, view, and delete notes through a clean and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+> Add a screenshot of your application here after uploading one.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ➕ Add new notes
+- 📋 View all notes
+- 🗑️ Delete notes
+- ⚡ Real-time updates
+- 🔗 REST API integration
+- 📱 Responsive user interface
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- CORS
+
+---
+
+## 📂 Project Structure
+
+```
+Notes-App/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── node_modules/
+│
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Srichethanapolaki/Notes-App.git
+```
+
+### Move into the Project
+
+```bash
+cd Notes-App
+```
+
+---
+
+### Install Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend runs on:
+
+```
+http://localhost:5173
+```
+
+---
+
+### Install Backend
+
+Open another terminal.
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+Backend runs on:
+
+```
+http://localhost:5000
+```
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | `/notes` | Fetch all notes |
+| POST | `/notes` | Add a new note |
+| DELETE | `/notes/:id` | Delete a note |
+
+---
+
+## 💻 Built With
+
+- React.js
+- Node.js
+- Express.js
+- Axios
+- JavaScript
+- HTML
+- CSS
+
+---
+
+## 🌟 Future Enhancements
+
+- MongoDB Database Integration
+- User Authentication
+- Edit Notes
+- Search Functionality
+- Categories & Tags
+- Dark/Light Theme
+
+---
+
+## 👩‍💻 Author
+
+**Polaki Srichethana**
+
+
+
+
+---
+
+⭐ If you like this project, don't forget to give it a Star!
